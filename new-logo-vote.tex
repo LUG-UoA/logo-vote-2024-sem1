@@ -1,0 +1,69 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage[a4paper,left=1.5cm,right=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{caption}
+%Define Own Colours
+\usepackage{xcolor}
+\definecolor{LightGray}{HTML}{DDDDDD}
+
+%Document Widths
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.35cm}
+\linespread{1.5}
+\fboxrule=1pt
+\fboxsep=0pt
+
+%Header and Footer Styles
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{LUG@UoA Logo Vote}}
+\fancyhead[R]{University of Auckland Linux User Group}
+\fancyfoot[L]{2024-04-28}
+\fancyfoot[R]{\thepage}
+
+%Document Body
+\begin{document}
+
+\pagecolor{LightGray}
+
+\newpage
+
+% \section*{Vote for your Favourite Logo!}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.56\linewidth]{res/1.png}
+  \caption*{\Large{\textbf{Option \#1}}}
+  \label{fig:optn1}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.56\linewidth]{res/2.png}
+  \caption*{\Large{\textbf{Option \#2}}}
+  \label{fig:optn2}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.56\linewidth]{res/3.png}
+  \caption*{\Large{\textbf{Option \#3}}}
+  \label{fig:optn3}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.56\linewidth]{res/4.png}
+  \caption*{\Large{\textbf{Option \#4}}}
+  \label{fig:optn4}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.56\linewidth]{res/5.png}
+  \caption*{\Large{\textbf{Option \#5}}}
+  \label{fig:optn5}
+\end{figure}
+
+\end{document}
